@@ -169,3 +169,6 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+
+# MarsPrototype textures: regular git blobs (LFS budget exhausted on remote)
+Assets/Mars/Textures/*.png -filter -diff -merge -text
